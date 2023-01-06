@@ -1,25 +1,48 @@
-* {
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
 }
 
-.header {
-    width: 100%;
-    position: static;
-    background: rgba(0, 0, 0, 0);
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.header_filling {
+.header-menu {
     display: flex;
 }
 
-.header_filling_button {
-background-color: rgba(0, 0, 0, 0);
+.header-menu-first {
+    display: flex;
+    width: 70%;
+    height: 700px;
+    background-image: url(/Image/backgroundfon.png);
 }
 
-.get_started {
-    font-family: inter;
-    font-style: normal;
-    font-size: 13px;
-    color: #1ECE7A;
-    text-align: center;
+.logo { 
+    height: 16px;
+    width: 16px;
+}
+
+.proba {
+    width: 30%;
+    height: 700px;
+}
+
+.navigation {
+    background-color: #fbfcff;
 }
