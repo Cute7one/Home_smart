@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    position: static;
+    background: rgba(0, 0, 0, 0);
+}
+
+.header_filling {
+    display: flex;
+}
+
+.header_filling_button {
+background-color: rgba(0, 0, 0, 0);
+}
+
+.get_started {
+    font-family: inter;
+    font-style: normal;
+    font-size: 13px;
+    color: #1ECE7A;
+    text-align: center;
+}
